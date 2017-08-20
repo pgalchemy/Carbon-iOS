@@ -3,15 +3,15 @@
 ## Project Organization
 
 - Project Root
--- Source
----- Main // Shared code
----- View // UIView and UIViewControllers
----- ViewModel // ViewModels
----- Model // business model objects
----- Resource // network, file access ,etc
--- Storboards // storyboards
--- Tests // unit tests
--- UITests // UI tests
+  - Source
+    - Main `Shared code`
+    - View `UIView and UIViewControllers`
+    - ViewModel `ViewModels`
+    - Model `business model objects`
+    - Resource `network, file access ,etc`
+  - Storboards `storyboards`
+  - Tests `unit tests`
+  - UITests `UI tests`
 
 ## Dependencies
 
