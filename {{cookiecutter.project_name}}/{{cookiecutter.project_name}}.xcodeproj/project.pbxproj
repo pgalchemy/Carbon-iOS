@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA63A5771F4A45D1007C8FE6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA63A5791F4A45D1007C8FE6 /* Localizable.strings */; };
 		FA6694181F4102DB0090006F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6694171F4102DB0090006F /* AppDelegate.swift */; };
 		FA66941A1F4102DB0090006F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6694191F4102DB0090006F /* ViewController.swift */; };
 		FA66941F1F4102DB0090006F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA66941E1F4102DB0090006F /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA63A5781F4A45D1007C8FE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FA6694141F4102DB0090006F /* {{cookiecutter.project_name}}.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "{{cookiecutter.project_name}}.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA6694171F4102DB0090006F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA6694191F4102DB0090006F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 		FA66940B1F4102DB0090006F = {
 			isa = PBXGroup;
 			children = (
+				FA63A5791F4A45D1007C8FE6 /* Localizable.strings */,
 				FA6694231F4102DB0090006F /* Info.plist */,
 				FA66941E1F4102DB0090006F /* Assets.xcassets */,
 				FA6694161F4102DB0090006F /* Source */,
@@ -311,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA6694221F4102DB0090006F /* LaunchScreen.storyboard in Resources */,
+				FA63A5771F4A45D1007C8FE6 /* Localizable.strings in Resources */,
 				FA66941F1F4102DB0090006F /* Assets.xcassets in Resources */,
 				FAFF507C1F413C85002BFEBD /* Main.storyboard in Resources */,
 			);
@@ -420,6 +424,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		FA63A5791F4A45D1007C8FE6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA63A5781F4A45D1007C8FE6 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		FA6694201F4102DB0090006F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
