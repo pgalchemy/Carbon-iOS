@@ -4,14 +4,14 @@
 
 - Project Root
   - Source
-    - Main `Shared code`
-    - View `UIView and UIViewControllers`
-    - ViewModel `ViewModels`
-    - Model `business model objects`
-    - Resource `network, file access ,etc`
-  - Storboards `storyboards`
-  - Tests `unit tests`
-  - UITests `UI tests`
+    - Main `// shared code`
+    - View `// UIView and UIViewControllers`
+    - ViewModel `// view models`
+    - Model `// business model objects`
+    - Resource `// network, file access ,etc`
+  - Storboards `// storyboards`
+  - Tests `// unit tests`
+  - UITests `// UI tests`
 
 ## Dependencies
 
