@@ -13,7 +13,7 @@ A template for creating a new iOS project with our preferred project organizatio
 - [x] Pod - R.swift
 - [x] Pod - Crashlytics
 - [x] Basic Fastlane build script
-- [ ] Localized Strings file
+- [x] Localized Strings file
 - [ ] Analytics
 
 Dependencies:
