@@ -7,7 +7,6 @@ A template for creating a new iOS project with our preferred project organizatio
 - [x] Default folder structure
 - [x] .gitignore
 - [x] README
-- [x] xcconfig files
 - [x] Podfile
 - [x] CocoaPods
 - [x] Pod - R.swift
