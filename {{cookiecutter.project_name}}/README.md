@@ -1,4 +1,35 @@
-# Contributing to {{ cookiecutter.project_name }} #
+# {{ cookiecutter.project_name }}
+
+Short description of the project
+
+# Getting Started
+
+## Prerequisites
+
+Prerequisites for setting up a local development environment 
+
+- [Bundler](http://bundler.io)
+- [Fastlane](https://fastlane.tools)
+- [Cocoapods](https://cocoapods.org)
+- [R.swift](https://github.com/mac-cain13/R.swift)
+- [SwitfLint](https://github.com/realm/SwiftLint)
+- [Fabric - Crashlytics](https://crashlytics.com)
+
+Installation steps:
+
+```
+Include commands 
+```
+
+## Dependencies
+
+Dependencies are managed as Frameworks by CocoaPods.
+
+To update dependencies run:
+
+```
+$ bundle exec cocoapods update
+```
 
 ## Project Organization
 
@@ -13,28 +44,60 @@
   - Tests `// unit tests`
   - UITests `// UI tests`
 
-## Dependencies
+# Build and Deployment Procedures
 
-Dependencies are managed as Frameworks by CocoaPods. 
+List steps to build and deploy.
 
-To update dependencies run:
+```
+Include commands 
+```
 
-`$ bundle exec cocoapods update`
+## Build
 
-## Testing 
+List build steps for both production and non-production builds.
 
-Use Fastlane to run tests on the commandline
+## Test
 
-`$ bundle exec fastlane test`
+Use Fastlane to run tests on the command-line.
 
-## Build Time Tools
+```
+$ bundle exec fastlane test
+```
 
-- [Bundler](http://bundler.io)
-- [Fastlane](https://fastlane.tools)
-- [Cocoapods](https://cocoapods.org)
-- [R.swift](https://github.com/mac-cain13/R.swift)
-- [SwitfLint](https://github.com/realm/SwiftLint)
-- [Fabric - Crashlytics](https://crashlytics.com)
+## Deploy 
 
+List steps to deploy both production and non-production builds.
 
-## About {{ cookiecutter.company_name }}
+# Infrastructure
+
+## Environments
+
+List of distinct infrastructure environments such as development, staging and production.
+
+- production
+
+## Infrastructure Components
+
+List the infrastructure components by environment such as databases, servers, storage, etc.
+
+Environment: Production
+
+| Component Name | URI | Type | Description |
+|---|---|---|---|
+| | | | |
+
+## Service Accounts
+
+Accounts used to access environments and resources. Do not include passwords here.
+
+Environment: Production
+
+| Account Name | Resource | Owner | Description |
+|---|---|---|---|
+| | | | |
+
+## Start, Stop and Restart Procedures
+
+List steps to start, stop and restart server environments.
+
+# Common Trouble Shooting Procedures
