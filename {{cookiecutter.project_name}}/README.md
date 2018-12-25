@@ -8,10 +8,8 @@ Short description of the project
 
 Prerequisites for setting up a local development environment 
 
-- [Bundler](http://bundler.io)
 - [Fastlane](https://fastlane.tools)
 - [Cocoapods](https://cocoapods.org)
-- [R.swift](https://github.com/mac-cain13/R.swift)
 - [SwitfLint](https://github.com/realm/SwiftLint)
 - [Fabric - Crashlytics](https://crashlytics.com)
 
@@ -33,16 +31,30 @@ $ bundle exec cocoapods update
 
 ## Project Organization
 
-- Project Root
-  - Source
-    - Main `// shared code`
-    - View `// UIView and UIViewControllers`
-    - ViewModel `// view models`
-    - Model `// business model objects`
-    - Resource `// network, file access ,etc`
-  - Storboards `// storyboards`
-  - Tests `// unit tests`
-  - UITests `// UI tests`
+```
+<Project>
+├── Assets.xcassets		// Image, colors and data assets
+├── Config			// Directory for xcconfig and main Info.plist
+├── .gitattributes		// Attributes for merging strings and project files 
+├── .gitignore			// Standard Xcode project .gitignore
+├── .swiftlint.yml 		// SwiftLint configuration
+├── Podfile			// CocoaPods 
+├── README.md			// Template README.md file
+├── Source			  // Source directory for iOS project
+│   ├── Main			 // Common or shared code
+│   ├── View			 // Views and ViewControllers
+│   └── ViewModel		 // ViewsModels (no UIKit dependencies)
+│   ├── Model			 // Model objects
+│   ├── Resource		 // Network/resource layer code
+│   ├── Storyboards	 	// Source directory for iOS project
+├── Tests			// Logical tests
+│   ├── Info.plist
+│   └── Source
+└── UITests			// UI tests
+    ├── Info.plist
+    └── Source
+
+```
 
 # Build and Deployment Procedures
 

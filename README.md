@@ -4,17 +4,14 @@ A template for creating a new iOS project with our preferred project organizatio
 
 ## Features
 
-- [x] Default folder structure
+- [x] Predefined project structure
 - [x] .gitignore, ,gitattributes
-- [x] README
+- [x] README.md template
 - [x] xcconfig files and build schemes for beta and production
 - [x] AppIcon placeholders for beta and production
 - [x] CocoaPods
 - [x] Pod - SwiftLint
 - [x] Pod - Crashlytics
-- [x] Basic Fastlane build script
-- [x] Localized Strings file
-- [ ] Analytics
 
 Dependencies:
 
@@ -27,23 +24,23 @@ Dependencies:
 ```
 <Project>
 ├── Assets.xcassets		// Image, colors and data assets
-├── Config				// Directory for xcconfig and main Info.plist
+├── Config			// Directory for xcconfig and main Info.plist
 ├── .gitattributes		// Attributes for merging strings and project files 
 ├── .gitignore			// Standard Xcode project .gitignore
 ├── .swiftlint.yml 		// SwiftLint configuration
-├── Podfile				// CocoaPods 
+├── Podfile			// CocoaPods 
 ├── README.md			// Template README.md file
-├── Source			   	// Source directory for iOS project
+├── Source			  // Source directory for iOS project
 │   ├── Main			 // Common or shared code
 │   ├── View			 // Views and ViewControllers
 │   └── ViewModel		 // ViewsModels (no UIKit dependencies)
 │   ├── Model			 // Model objects
 │   ├── Resource		 // Network/resource layer code
-│   ├── Storyboards	 // Source directory for iOS project
-├── Tests				// Logical tests
+│   ├── Storyboards	 	// Source directory for iOS project
+├── Tests			// Logical tests
 │   ├── Info.plist
 │   └── Source
-└── UITests				// UI tests
+└── UITests			// UI tests
     ├── Info.plist
     └── Source
 
@@ -53,9 +50,9 @@ Dependencies:
 
 1. Install [cookiecutter][cookiecutter] `$ brew install cookiecutter` 
 2. Install [Bundler][Bundler] `$ [sudo] gem install bundler`
-3. Run `cookiecutter gh:atomicrobot/ios-starter-project`
+3. Run `cookiecutter gh:atomicrobot/Carbon-iOS`
 
-Cookiecutter will clone the ios-starter-project template and prompt for the following information.
+Cookiecutter will clone the Carbon-iOS template and prompt for the following information.
 
 ```
 $ project_name [Project Name]:
