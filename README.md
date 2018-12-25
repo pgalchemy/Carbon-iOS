@@ -49,7 +49,6 @@ Dependencies:
 ## Usage
 
 1. Install [cookiecutter][cookiecutter] `$ brew install cookiecutter` 
-2. Install [Bundler][Bundler] `$ [sudo] gem install bundler`
 3. Run `cookiecutter gh:atomicrobot/Carbon-iOS`
 
 Cookiecutter will clone the Carbon-iOS template and prompt for the following information.
@@ -58,11 +57,9 @@ Cookiecutter will clone the Carbon-iOS template and prompt for the following inf
 $ project_name [Project Name]:
 $ company_name [Atomic Robot]:
 $ bundle_identifier [com.mycomp]: 
-$ fabric_api_key [FABRIC_API_KEY]: 
-$ fabric_build_secret [FABRIC_BUILD_SECRET]: 
 ```
 
-On completion, Cookiecutter will install and initilize CocoaPods and Fastlane.
+On completion, Cookiecutter will install and initilize CocoaPods and git.
 
 [cookiecutter]: http://cookiecutter.readthedocs.org/en/latest/installation.html
 [Bundler]: http://bundler.io
