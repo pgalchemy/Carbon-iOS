@@ -53,7 +53,7 @@ Dependencies:
 
 1. Install [cookiecutter][cookiecutter] `$ brew install cookiecutter` 
 2. Install [Bundler][Bundler] `$ [sudo] gem install bundler`
-3. Run `cookiecutter gh:madebyatomicrobot/ios-starter-project`
+3. Run `cookiecutter gh:atomicrobot/ios-starter-project`
 
 Cookiecutter will clone the ios-starter-project template and prompt for the following information.
 
