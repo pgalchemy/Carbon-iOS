@@ -1,0 +1,19 @@
+//
+//  Beta.xcconfig
+//  {{cookiecutter.project_name}}
+//
+//  Created by {{cookiecutter.company_name}}.
+//  Copyright © {{cookiecutter.company_name}}. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// App Settings
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon.beta
+PRODUCT_NAME = {{cookiecutter.project_name}} Beta
+PRODUCT_BUNDLE_IDENTIFIER = {{cookiecutter.bundle_identifier}}.beta
+PRODUCT_MODULE_NAME = {{cookiecutter.project_name}}
+
+// User Defined
+APP_ENV = beta

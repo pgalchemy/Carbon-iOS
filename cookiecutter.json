@@ -1,7 +1,5 @@
 {
   "project_name": "Project Name",
   "company_name": "Atomic Robot",
-  "bundle_identifier": "com.{{ cookiecutter.company_name | replace(' ', '') | lower }}",
-  "fabric_api_key": "FABRIC_API_KEY",
-  "fabric_build_secret": "FABRIC_BUILD_SECRET"
+  "bundle_identifier": "com.{{ cookiecutter.company_name | replace(' ', '') | lower }}"
 }

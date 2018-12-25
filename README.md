@@ -5,26 +5,49 @@ A template for creating a new iOS project with our preferred project organizatio
 ## Features
 
 - [x] Default folder structure
-- [x] .gitignore
+- [x] .gitignore, ,gitattributes
 - [x] README
-- [x] xcconfig files
-- [x] Podfile
+- [x] xcconfig files and build schemes for beta and production
+- [x] AppIcon placeholders for beta and production
 - [x] CocoaPods
-- [x] Pod - R.swift
+- [x] Pod - SwiftLint
 - [x] Pod - Crashlytics
 - [x] Basic Fastlane build script
-- [ ] Localized Strings file
+- [x] Localized Strings file
 - [ ] Analytics
 
 Dependencies:
 
-- [Bundler](http://bundler.io)
 - [Fastlane](https://fastlane.tools)
 - [Cocoapods](https://cocoapods.org)
-- [R.swift](https://github.com/mac-cain13/R.swift)
 - [SwitfLint](https://github.com/realm/SwiftLint)
 - [Fabric - Crashlytics](https://crashlytics.com)
 
+## Structure
+```
+<Project>
+├── Assets.xcassets		// Image, colors and data assets
+├── Config				// Directory for xcconfig and main Info.plist
+├── .gitattributes		// Attributes for merging strings and project files 
+├── .gitignore			// Standard Xcode project .gitignore
+├── .swiftlint.yml 		// SwiftLint configuration
+├── Podfile				// CocoaPods 
+├── README.md			// Template README.md file
+├── Source			   	// Source directory for iOS project
+│   ├── Main			 // Common or shared code
+│   ├── View			 // Views and ViewControllers
+│   └── ViewModel		 // ViewsModels (no UIKit dependencies)
+│   ├── Model			 // Model objects
+│   ├── Resource		 // Network/resource layer code
+│   ├── Storyboards	 // Source directory for iOS project
+├── Tests				// Logical tests
+│   ├── Info.plist
+│   └── Source
+└── UITests				// UI tests
+    ├── Info.plist
+    └── Source
+
+```
 
 ## Usage
 
@@ -53,7 +76,7 @@ On completion, Cookiecutter will install and initilize CocoaPods and Fastlane.
 
 ## License
 
-Copyright © 2017 Atomic Robot. 
+Copyright © 2019 Atomic Robot. 
 
 [LICENSE]: LICENSE
 
@@ -63,4 +86,4 @@ Copyright © 2017 Atomic Robot.
 
 This project is maintained by Atomic Robot. The names and logos for Atomic Robot are trademarks of Atomic Robot, LLC.
 
-[Atomic Robot](https://atomicrobot.io)
+[Atomic Robot](https://atomicrobot.com)

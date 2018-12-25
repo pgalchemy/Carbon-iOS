@@ -1,12 +1,13 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-platform :ios, '9.0'
+platform :ios, '11.0'
+project '{{cookiecutter.project_name}}', 'Debug Beta' => :debug, 'Debug Production' => :debug, 'Release Beta' => :release, 'Release Production' => :release
+
+inhibit_all_warnings!
 use_frameworks!
 
 target '{{cookiecutter.project_name}}' do
-  pod 'R.swift'
-  pod 'Fabric'
-  pod 'Crashlytics'
-  pod 'SwiftLint'
+    pod 'Fabric'
+    pod 'Crashlytics'
+    pod 'SwiftLint'
 end
-
