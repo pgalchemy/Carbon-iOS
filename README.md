@@ -1,5 +1,6 @@
 
 <img src="carbon-logo.png" width="200" height="200" title="Carbon Logo">
+
 # Carbon: iOS Project Template
 
 A template for creating a new iOS project with our preferred project organization and default setting.
