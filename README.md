@@ -1,3 +1,5 @@
+
+![Carbon Logo](carbon-logo.png)
 # Carbon: iOS Project Template
 
 A template for creating a new iOS project with our preferred project organization and default setting.
