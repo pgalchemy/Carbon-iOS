@@ -1,5 +1,5 @@
 {
   "project_name": "Project Name",
-  "company_name": "Atomic Robot",
-  "bundle_identifier": "com.{{ cookiecutter.company_name | replace(' ', '') | lower }}"
+  "company_name": "Alchemy",
+  "bundle_identifier": "com.{{ cookiecutter.company_name | replace(' ', '') | lower }}.{{ cookiecutter.project_name | replace(' ', '') | lower }}"
 }

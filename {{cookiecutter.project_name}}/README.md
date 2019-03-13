@@ -33,7 +33,6 @@ $ bundle exec cocoapods update
 
 ```
 <Project>
-├── Assets.xcassets		// Image, colors and data assets
 ├── Config			// Directory for xcconfig and main Info.plist
 ├── .gitattributes		// Attributes for merging strings and project files 
 ├── .gitignore			// Standard Xcode project .gitignore
@@ -41,12 +40,16 @@ $ bundle exec cocoapods update
 ├── Podfile			// CocoaPods 
 ├── README.md			// Template README.md file
 ├── Source			  // Source directory for iOS project
-│   ├── Main			 // Common or shared code
-│   ├── View			 // Views and ViewControllers
-│   └── ViewModel		 // ViewsModels (no UIKit dependencies)
-│   ├── Model			 // Model objects
-│   ├── Resource		 // Network/resource layer code
-│   ├── Storyboards	 	// Source directory for iOS project
+│   ├── Controllers	     // ViewControllers
+│   ├── Views			 // Views
+│   └── ViewModels		 // ViewsModels (no UIKit dependencies)
+│   ├── Helpers			 // A "catch all" place for helper methods, classes, etc
+│   ├── Models			 // Model objects
+│   ├── Extensions		 // Extensions on other classes
+│   ├── Interactors		 // Middle-layer between ViewModels and Wrappers
+│   ├── Wrappers		 // Middle-layer between API / DB and Interactors
+│   └── Resources		 // Images, assets, etc
+│       └── Assets.xcassets		// Image, colors and data assets
 ├── Tests			// Logical tests
 │   ├── Info.plist
 │   └── Source
