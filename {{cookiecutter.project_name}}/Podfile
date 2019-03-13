@@ -14,7 +14,6 @@ end
 
 def common_pods
     pg_kit
-    pod 'SnapKit'
     pod 'SwiftLint'
 end
 
